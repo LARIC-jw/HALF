@@ -1,0 +1,14 @@
+This private folder serves as a repository for tracking progress on improving the LakeSP filtering.
+
+It currently contains the following three files:
+
+> Filter-LakeSP-all-filters-v5-JW-06302025.py
+Script implementing the customized LakeSP filter (version 5, updated June 30, 2025)
+
+> df_Hydrocron.zip
+A zipped CSV file containing LakeSP records for approximately 630 tested lakes and reservoirs, retrieved from the Hydrocron API
+
+> gauge_data.zip
+A zipped file containing gauge data for approximately 630 lakes and reservoirs, used for validating the LakeSP filter
+
+Noted by: Jida Wang, 06/30/2025
