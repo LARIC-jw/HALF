@@ -26,7 +26,7 @@ Define global parameters:
     
     SP_retrieval_method (tex):         Preferred method to retrieve the SWOT LakeSP time series: 
                                             - "Hydrocron" - from the Hydrocron API
-                                            - "on-premise" - from the csv file previously saved in the local disk
+                                            - "on-premise" - from the csv file previously saved in the local disk (provided in df_Hydrocron.zip)
     
     apply_low_pass_filter (text):      "yes" = both heuristic baseline (Step 1) and low-pass filtering (Step 2) will be executed;
                                        "no" = only heuristic baseline (Step 1) will be executed. 
@@ -60,7 +60,7 @@ z_scores_threshold_r2 = 3.5
 evaluating_at_full_data = 'no' #'no' recommended
 recovering_observations = 'yes' #'yes' recommended
 r2_filter = 'yes' #yes recommended
-show_filtering_evolution = 'yes' #for visualization only; caution: 'yes' may load many figures at the end of the script execution. 
+show_filtering_evolution = 'no' #for visualization only; caution: 'yes' may load many figures at the end of the script execution. 
 
 
 
@@ -85,6 +85,7 @@ from scipy.stats import spearmanr
 test_lakes = pd.DataFrame(columns=['lake_id', 'gauge_source', 'gauge_dir', 'gauge_id', 'gauge_datum'])
 
 #Read in gauge metadata
+#Note: All gauge data are here provided in gauge_data.zip.
 # Quebec lakes
 df_CEHQ = pd.read_csv(work_dir+'/gauge_data/Conversion_EGM08_CEHQ.csv', sep=',', encoding='iso-8859-2')
 for n in range(len(df_CEHQ)):
@@ -1127,7 +1128,7 @@ fill_float = -999999999999
 
 # Local the LakeSP time series for all lakes if the preferred retrieval method is set to be 'on-premise'
 if SP_retrieval_method == 'on-premise': 
-    df_Hydrocron = pd.read_csv(work_dir+'/df_Hydrocron.csv')
+    df_Hydrocron = pd.read_csv(work_dir+'/df_Hydrocron.csv') #Here provided in df_Hydrocron.zip
 
 # Loop through each unique test lake
 for feature_id in test_lakeIDs: # test_lakeIDs contain a list of unique PLD lake IDs. 
