@@ -10,7 +10,7 @@ Goals:
     To balance (1) WSE noise removal and (2) a good representation of the all-year lake level hydrograph.   
 General structure: 
     There are two major steps in this customized filtering process: 
-        - Step 1 (herustic baseline): Subset good observations from full SP time series using a heuristic baseline filter
+        - Step 1 (heuristic baseline): Subset good observations from full SP time series using a heuristic baseline filter
         - Step 2 (low-pass filtering): Further tidy up the good observations using a low-pass filter (e.g., LOWESS, Savitzky-Golay, etc).
 """
 
@@ -28,18 +28,18 @@ Define global parameters:
                                             - "Hydrocron" - from the Hydrocron API
                                             - "on-premise" - from the csv file previously saved in the local disk (provided in df_Hydrocron.zip)
     
-    apply_low_pass_filter (text):      "yes" = both heuristic baseline (Step 1) and low-pass filtering (Step 2) will be executed;
+    apply_low_pass_filter (text):      "yes" (recommended) = both heuristic baseline (Step 1) and low-pass filtering (Step 2) will be executed;
                                        "no" = only heuristic baseline (Step 1) will be executed. 
     
     The following parameters only matter if apply_low_pass_filter is set to "yes":
-    filter_type (text):                Low-pass filter type: lowess, wavelet, savgol, kalman, spline, median, and hampel.
-    z_scores_threshold (float):        Z-score threshold for round-1 (more aggressive) filtering
-    z_scores_threshold_r2 (float):     Z-score threshold for round-2 (less aggressive) filtering. This is only needed if r2_filter = 'yes'
+    filter_type (text):                Low-pass filter type: lowess, wavelet, savgol (recommended), kalman, spline, median, and hampel.
+    z_scores_threshold (float):        Z-score threshold for round-1 (more aggressive) filtering (2.576 recommended)
+    z_scores_threshold_r2 (float):     Z-score threshold for round-2 (less aggressive) filtering (3.5 recommended). This is only needed if r2_filter = 'yes'
     evaluating_at_full_data (text):    "yes" = evaluate outlier removal (z-score clipping) on full LakeSP data; 
-                                       "no" = evaluate only on selected observations                                   
-    recovering_observations (text):    "yes" = add good-quality observation back after round-1 filtering; "no" = otherwise
-    r2_filter (text):                  "yes" = perform another round (round-2) of filtering to remove remaining noise; "no" = otherwise  
-    show_filtering_evolution (text):   "yes" = plot how outlier filtering evolves through iteration; "no" = otherwise
+                                       "no" (recommended) = evaluate only on selected observations (the heuristic baseline).                                  
+    recovering_observations (text):    "yes" (recommended) = add good-quality observation back after round-1 filtering; "no" = otherwise
+    r2_filter (text):                  "yes" (recommended) = perform another round (round-2) of filtering to remove remaining noise; "no" = otherwise  
+    show_filtering_evolution (text):   "yes" = plot how outlier filtering evolves through iteration; "no" = otherwise. 
     
     
 """
@@ -187,7 +187,7 @@ Functions: Do not change the functions unless necessary.
             
     Options of multiple low-pass filters: all allows parallel run. 
         filter_lowess:             LOWESS filter
-        filter_savgol:             Savitzky-Golay filter
+        filter_savgol:             Savitzky-Golay filter (recommended as it seems to maintain the time series structure well)
         filter_wavelet:            Wavelet-based denoising filter
         filter_hampel:             Hampel filter
         filter_spline:             UnivariateSpline filter
