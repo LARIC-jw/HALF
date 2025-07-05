@@ -2,6 +2,9 @@ This private folder serves as a repository for tracking progress on improving th
 
 It currently contains the following three files:
 
+> Customized-LakeSP-filter-v6-07042025.py
+Script implementing the customized LakeSP filter (version 6, updated July 4, 2025)
+
 > Customized-LakeSP-filter-v5-06302025.py
 Script implementing the customized LakeSP filter (version 5, updated June 30, 2025)
 
