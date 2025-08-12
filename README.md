@@ -18,4 +18,4 @@ Slides showing updated discussions and results from the development of the LakeS
 > Filter-Hydrocron-LakeSP-LOWESS-v_multipass-generic.py
 Script to implement the customized LakeSP filter. This script represents an earlier version of Customized-LakeSP-filter-v5-06302025.py, with inclusion of Melanie's method to remove multi-pass inconsistency. 
 
-Noted by: Jida Wang, 07/13/2025
+Last updated by: Jida Wang, 08/12/2025
