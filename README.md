@@ -8,8 +8,8 @@ Latest script to implement the customized LakeSP filter (version 8, updated Augu
 > df_Hydrocron.zip
 Latest zipped CSV file containing LakeSP time series for about 1000 tested lakes, retrieved from the Hydrocron API
 
-> gauge_data.zip
-Latest zipped file containing gauge data for validating the LakeSP filter
+> gauge_data: Latest gauge data for validating the LakeSP filter. Due to size, the gauge data is shared through this Google Drive:
+> https://drive.google.com/file/d/1259inmNEs9_ilh0AGHVwXoHwu3FTfxOz/view?usp=sharing 
 
 > LakeSP-filter-results.pptx
 Latest results
