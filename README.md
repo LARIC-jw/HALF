@@ -12,8 +12,8 @@ A zipped CSV file containing LakeSP time series for about 1000 tested lakes, ret
 > gauge_data.zip
 A zipped file containing gauge data for validating the LakeSP filter
 
-> LakeSP-filter-result-07-13-2025.pptx
-Slides showing intermediate discussions and results from the development of the LakeSP filter.
+> LakeSP-filter-results.pptx
+Slides showing updated discussions and results from the development of the LakeSP filter.
 
 > Filter-Hydrocron-LakeSP-LOWESS-v_multipass-generic.py
 Script to implement the customized LakeSP filter. This script represents an earlier version of Customized-LakeSP-filter-v5-06302025.py, with inclusion of Melanie's method to remove multi-pass inconsistency. 
