@@ -1,20 +1,24 @@
-This private folder serves as a repository for tracking progress on improving the LakeSP filtering.
+This folder serves as a repository for tracking progress on improving the LakeSP filtering.
+Last updated: 09/15/2025
 
 Files include:
+> Customized-LakeSP-filter-v9-08122025.py
+Latest script to implement the customized LakeSP filter (version 9, updated September 15, 2025).
 
-> Customized-LakeSP-filter-v8-08122025.py
-Latest script to implement the customized LakeSP filter (version 8, updated August 12, 2025).
+> customized_functions.py
+All functions needed for executing Customized-LakeSP-filter-v9-08122025.py
 
 > df_Hydrocron.zip
-Latest zipped CSV file containing LakeSP time series for about 1000 tested lakes, retrieved from the Hydrocron API
+Latest zipped CSV file containing LakeSP time series for about 1070 tested lakes, retrieved from the Hydrocron API
 
-> gauge_data: Latest gauge data for validating the LakeSP filter. Due to size, the gauge data is shared through this Google Drive:
-> https://drive.google.com/file/d/1259inmNEs9_ilh0AGHVwXoHwu3FTfxOz/view?usp=sharing 
+> gauge_data: Latest gauge data for validating the LakeSP filter.
+Due to size, the gauge data is shared through this Google Drive:
+https://drive.google.com/drive/folders/1etGNuR0eQdQ-TFFH7L2a6saO0IfRUu8s?usp=sharing 
 
 > LakeSP-filter-results.pptx
 Latest results
 
-> Filter-Hydrocron-LakeSP-LOWESS-v_multipass-generic.py
-Script to implement the customized LakeSP filter. This script represents an earlier version of Customized-LakeSP-filter-v5-06302025.py, with inclusion of Melanie's method to remove multi-pass inconsistency. 
+> Other files
+Old versions for the record
 
 Last updated by: Jida Wang, 08/12/2025
