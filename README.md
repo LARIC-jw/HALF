@@ -1,5 +1,5 @@
 This folder serves as a repository for tracking progress on improving the LakeSP filtering.
-Last updated: 09/15/2025
+Latest updated: 11/21/2025
 
 Files include:
 > Customized-LakeSP-filter-v10-10022025.py
@@ -20,5 +20,3 @@ Latest results
 
 > Other files
 Old versions for the record
-
-Last updated by: Jida Wang, 11/21/2025
