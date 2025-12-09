@@ -3,9 +3,7 @@ Latest updated: 11/21/2025
 
 Files include:
 > LakeSP_heuristic_filter_basinArray_joblib_08212025.py
-THIS IS THE MAIN AND LATEST executing script to apply the LakeSP heuristic filter on individual lake time seriese csv files downloaded from Hydrocron.
-
-This script was modified from LakeSP-heuristic-filter-with-validation-v10-10022025.py to allow joblib parallel per-lake: 
+THIS IS THE MAIN AND LATEST executing script to apply the LakeSP heuristic filter on individual lake time seriese csv files downloaded from Hydrocron. This script was modified from LakeSP-heuristic-filter-with-validation-v10-10022025.py to allow joblib parallel per-lake: 
     1. Parallelize *within each basin* over lakes using joblib. 
     2. Return one output CSV per basin.
     3. No need to perform gauge validation as in LakeSP-heuristic-filter-with-validation-vxx.py
