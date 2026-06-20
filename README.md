@@ -1,4 +1,4 @@
-## Scripts
+## Heuristic Adaptive Lake Filter (HALF) scripts
 
 The `scripts/` folder contains the Python implementation of the Heuristic Adaptive Lake Filter (HALF) for SWOT LakeSP time series.
 
