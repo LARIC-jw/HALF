@@ -16,7 +16,7 @@ Due to GitHub file-size limits, the compiled gauge dataset used as validation in
 
 **Zenodo dataset:** https://doi.org/10.5281/zenodo.20781336
 
-After downloading the Zenodo archive, users may place or symlink the data folder into the repository root using the expected folder name:
+After downloading the Zenodo archive, users may place or symlink the gauge data folder into the repository root using the expected folder name:
 
 ```text
 gauge_data/
