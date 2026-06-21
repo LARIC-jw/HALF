@@ -34,8 +34,8 @@ The archived HALF v1.0 code release is available through Zenodo: https://doi.org
 
 The HALF method and validation workflow are described in Trudel et al. (2026, in review). Users of HALF should cite both the archived code release and the associated manuscript:
 
-Trudel, M., Wang, J., Biancamaria, S., Harlan, M. E., Shah, D., Gao, H., Collins, E., Getirana, A., Song, C., Reis Alencar Oliveira, R., Gosset, M., Rodrigues Martins, E. S., Fleischmann, A., Hymans, D., Grippa, M., Girard, F., Kergoat, L., Pottier, C., Fjørtoft, R., Oubanas, H., & Pavelsky, T. M. (2026). A Heuristic Adaptive Filter for SWOT Lake Vector Data Products. *Geophysical Research Letters*, in review.
-
 Wang, J., & Trudel, M. (2026). *LARIC-jw/HALF: HALF v1.0* (v1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.20782248.
+
+Trudel, M., Wang, J., Biancamaria, S., Harlan, M. E., Shah, D., Gao, H., Collins, E., Getirana, A., Song, C., Reis Alencar Oliveira, R., Gosset, M., Rodrigues Martins, E. S., Fleischmann, A., Hymans, D., Grippa, M., Girard, F., Kergoat, L., Pottier, C., Fjørtoft, R., Oubanas, H., & Pavelsky, T. M. (2026). A Heuristic Adaptive Filter for SWOT Lake Vector Data Products. *Geophysical Research Letters*, in review.
 
 We welcome feedback, questions, and suggestions. Please contact Jida Wang ([jidaw@illinois.edu](mailto:jidaw@illinois.edu)) and Mélanie Trudel ([melanie.trudel@usherbrooke.ca](mailto:melanie.trudel@usherbrooke.ca)).
