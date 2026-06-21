@@ -26,10 +26,16 @@ The validation script expects this folder by default when `work_dir = "."` and t
 
 This GitHub repository provides the code and documentation used to process, filter, validate, and analyze the associated data.
 
-## Version and authors
+## Version, archived release, and citation
 
-HALF version 1. Last updated: June 20, 2026.
+HALF version 1.0. Last updated: June 20, 2026.
+
+The archived HALF v1.0 code release is available through Zenodo: https://doi.org/10.5281/zenodo.20782248.
+
+The HALF method and validation workflow are described in Trudel et al. (2026, in review). Users of HALF should cite both the archived code release and the associated manuscript:
+
+Trudel, M., Wang, J., Biancamaria, S., Harlan, M. E., Shah, D., Gao, H., Collins, E., Getirana, A., Song, C., Reis Alencar Oliveira, R., Gosset, M., Rodrigues Martins, E. S., Fleischmann, A., Hymans, D., Grippa, M., Girard, F., Kergoat, L., Pottier, C., Fjørtoft, R., Oubanas, H., & Pavelsky, T. M. (2026). A Heuristic Adaptive Filter for SWOT Lake Vector Data Products. *Geophysical Research Letters*, in review.
+
+Wang, J., & Trudel, M. (2026). *LARIC-jw/HALF: HALF v1.0* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.20782248.
 
 We welcome feedback, questions, and suggestions. Please contact Jida Wang ([jidaw@illinois.edu](mailto:jidaw@illinois.edu)) and Mélanie Trudel ([melanie.trudel@usherbrooke.ca](mailto:melanie.trudel@usherbrooke.ca)).
-
-Citation: Trudel, M., Wang, J., Biancamaria, S., Harlan, M. E., Shah, D., Gao, H., Collins, E., Getirana, A., Song, C., Reis Alencar Oliveira, R., Gosset, M., Rodrigues Martins, E. S., Fleischmann, A., Hymans, D., Grippa, M., Girard, F., Kergoat, L., Pottier, C., Fjørtoft, R., Oubanas, H., & Pavelsky, T. M. (2026). A Heuristic Adaptive Filter for SWOT Lake Vector Data Products. *Geophysical Research Letters*, in review.
