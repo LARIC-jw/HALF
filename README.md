@@ -34,6 +34,3 @@ HALF version 1. Last updated: June 20, 2026.
 We welcome any feedback, questions, and suggestions. Please contact Jida Wang (jidaw@illinois.edu); Mélanie Trudel (melanie.trudel@usherbrooke.ca) 
 
 Citation: Trudel, M., Wang, J., Biancamaria, S., Harlan, M.E., Shah, D., Gao, H., Collins, E., Getirana, A., Song, C., Reis Alencar Oliveira, R., Gosset, M., Rodrigues Martins, E.S., Fleischmann, A., Hymans, D., Grippa, M., Girard, F., Kergoat, L., Pottier, C., Fjørtoft, R., Oubanas, H., & Pavelsky, T.M. (2026). A Heuristic Adaptive Filter for SWOT Lake Vector Data Products. Geophysical Research Letters, in review.
-
-Note the `archive/` folder contains historical scripts and intermediate files from earlier development stages; these files are retained for transparency and are not actively maintained.
-
