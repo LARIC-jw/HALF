@@ -14,7 +14,7 @@ Users should review and edit the configuration dictionaries near the beginning o
 
 Due to GitHub file-size limits, the compiled gauge dataset used as validation input for `half_v1_validation.py` in Trudel et al. (2026, in review) is not stored directly in this GitHub repository. It is available through Zenodo:
 
-**Zenodo dataset:** [replace with Zenodo DOI or URL]
+**Zenodo dataset:** https://doi.org/10.5281/zenodo.20781336
 
 After downloading the Zenodo archive, users may place or symlink the data folder into the repository root using the expected folder name:
 
