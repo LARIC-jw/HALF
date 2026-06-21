@@ -12,7 +12,7 @@ Users should review and edit the configuration dictionaries near the beginning o
 
 ## Data availability
 
-Large input datasets are not stored directly in this GitHub repository. The compiled gauge records for validation in Trudel et al. (2026, in review) are available through Zenodo:
+Due to GitHub file-size limits, the compiled gauge dataset used as validation input for `half_v1_validation.py` in Trudel et al. (2026, in review) is not stored directly in this GitHub repository. It is available through Zenodo:
 
 **Zenodo dataset:** [replace with Zenodo DOI or URL]
 
